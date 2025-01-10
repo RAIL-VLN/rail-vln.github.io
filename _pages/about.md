@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: The vision-language navigation research group in robotics and artificial intelligence lab (RAIL), Tongji University.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: rail_logo_blue.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>555 your office number</p>
