@@ -2,10 +2,10 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
+title: RAIL-VLN # the website title (if blank, full name will be used instead)
+# first_name: You
+# middle_name: R.
+# last_name: Name
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -321,7 +321,8 @@ filtered_bibtex_keywords:
     bibtex_show,
     blog,
     code,
-    google_scholar_id,
+    gs_userid,
+    gs_paperid,
     html,
     inspirehep_id,
     pdf,
