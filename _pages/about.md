@@ -9,17 +9,24 @@ profile:
   image: rail_logo_blue.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>No. 4800, Cao'an Highway,</p>
+    <p>Jiading District,</p>
+    <p>Shanghai, China</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+The Robotics and Artificial Intelligence Laboratory ([RAIL](https://rail.tongji.edu.cn/main.htm)) at Tongji University, established in 1990, is one of the earliest labs in China dedicated to research in robotics and artificial intelligence. The laboratory focuses on scientific research in areas such as industrial robots, autonomous mobile robots, 2D/3D vision, and humanoid robots.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+The RAIL-VLN research group was established in 2021, focusing on end-to-end mapless navigation for mobile robots. The group has developed a service robot as an experimental platform, and is actively expanding its research towards general and practical embodied intelligence.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Research interests include:
+
+- Vision-Language Navigation
+- Object Navigation
+- Navigation-Grasping Embodied Collaboration
+- Cross-modal Generalization Representation Learning
+- Data Augmentation
+- Model Distillation
