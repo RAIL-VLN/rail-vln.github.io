@@ -20,13 +20,13 @@ social: false # includes social icons at the bottom of the page
 
 The Robotics and Artificial Intelligence Laboratory ([RAIL](https://rail.tongji.edu.cn/main.htm)) at Tongji University, established in 1990, is one of the earliest labs in China dedicated to research in robotics and artificial intelligence. The laboratory focuses on scientific research in areas such as industrial robots, autonomous mobile robots, 2D/3D vision, and humanoid robots.
 
-The RAIL-VLN research group was established in 2021, focusing on end-to-end mapless navigation for mobile robots. The group has developed a service robot as an experimental platform, and is actively expanding its research towards general and practical embodied intelligence. 
+The RAIL-VLN research group was established in 2021, focusing on end-to-end mapless navigation for mobile robots. The group has developed a service robot as an experimental platform, and is actively expanding its research towards general and practical embodied intelligence.
 
 Research interests include:
 
-+ Vision-Language Navigation
-+ Object Navigation
-+ Navigation-Grasping Embodied Collaboration
-+ Cross-modal Generalization Representation Learning
-+ Data Augmentation
-+ Model Distillation
+- Vision-Language Navigation
+- Object Navigation
+- Navigation-Grasping Embodied Collaboration
+- Cross-modal Generalization Representation Learning
+- Data Augmentation
+- Model Distillation
