@@ -327,6 +327,8 @@ filtered_bibtex_keywords:
     code,
     gs_userid,
     gs_paperid,
+    ieee,
+    gbt7714,
     html,
     inspirehep_id,
     pdf,
