@@ -250,6 +250,9 @@
       {% if entry.website %}
         <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
       {% endif %}
+      {% if entry.ieee or entry.gbt7714 %}
+        <a class="cite btn btn-sm z-depth-0" role="button">Cite</a>
+      {% endif %}
     </div>
     {% if site.enable_publication_badges %}
       {% assign entry_has_altmetric_badge = false %}
@@ -363,6 +366,24 @@
       <!-- Hidden video block -->
       <div class="abstract hidden">
         <div style="text-align: center;">{% include video.liquid path=entry.video class="img-fluid rounded z-depth-1" controls=true %}</div>
+      </div>
+    {% endif %}
+    
+    {% if entry.ieee or entry.gbt7714 %}
+      <!-- Hidden cite block -->
+      <div class="cite hidden">
+        {% if entry.ieee %}
+          <p>IEEE:</p>
+          <p>{{ entry.ieee }}</p>
+        {% endif %}
+        {% if entry.gbt7714 %}
+          <p>GB/T 7714:</p>
+          <p>{{ entry.gbt7714 }}</p>
+        {% endif %}
+        {% if reference %}
+          <p>APA:</p>
+          <p>{{ reference }}</p>
+        {% endif %}
       </div>
     {% endif %}
   </div>
