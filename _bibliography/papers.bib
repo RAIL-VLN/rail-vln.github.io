@@ -79,6 +79,7 @@
   author={Wang, Liuyi and Liu, Chengju and He, Zongtao and Li, Shu and Yan, Qingqing and Chen, Huiyi and Chen, Qijun},
   journal={Engineering Applications of Artificial Intelligence},
   year={2023},
+  doi={https://doi.org/10.1016/j.engappai.2023.107487},
   code={https://github.com/CrystalSixone/PASTS},
   abbr={PASTS},
   preview={wang2023pasts.png},
@@ -95,13 +96,14 @@
     month     = {June},
     year      = {2024},
     pages     = {13139-13150},
-    abstract={},
+    doi={10.1109/CVPR52733.2024.01248},
     code={https://github.com/CrystalSixone/VLN-GOAT},
     gs_userid={AW2gZ8cAAAAJ},
     gs_paperid={W7OEmFMy1HYC},
     bibtex_show={true},
     abbr={GOAT},
     preview={wang2024vln.png},
+    selected={true},
     abstract={In the pursuit of robust and generalizable environment perception and language understanding, the ubiquitous challenge of dataset bias continues to plague vision-andlanguage navigation (VLN) agents, hindering their performance in unseen environments. This paper introduces the generalized cross-modal causal transformer (GOAT), a pioneering solution rooted in the paradigm of causal inference. By delving into both observable and unobservable confounders within vision, language, and history, we propose the back-door and front-door adjustment causal learning (BACL and FACL) modules to promote unbiased learning by comprehensively mitigating potential spurious correlations. Additionally, to capture global confounder features, we propose a cross-modal feature pooling (CFP) module supervised by contrastive learning, which is also shown to be effective in improving cross-modal representations during pre-training. Extensive experiments across multiple VLN datasets (R2R, REVERIE, RxR, and SOON) underscore the superiority of our proposed method over previous state-of-the-art approaches. Code is available at https://github.com/CrystalSixone/VLN-GOAT.}
 }
 
@@ -134,6 +136,7 @@
   booktitle={2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
   pages={7726--7733},
   year={2024},
+  doi={10.1109/IROS58592.2024.10801563},
   organization={IEEE},
   code={https://github.com/CrystalSixone/SEAT},
   abstract={},
@@ -150,6 +153,7 @@
   author={Wang, Liuyi and He, Zongtao and Dang, Ronghao and Chen, Huiyi and Liu, Chengju and Chen, Qijun},
   journal={IEEE Transactions on Circuits and Systems for Video Technology},
   year={2023},
+  doi={10.1109/TCSVT.2022.3233554},
   publisher={IEEE},
   abbr={RES-StS},
   preview={wang2023ressts.png},
@@ -165,6 +169,7 @@
   booktitle={Proceedings of the 30th ACM International Conference on Multimedia},
   pages={3617--3627},
   year={2022},
+  doi={10.1145/3503161.3547852},
   code={https://github.com/Rh-Dang/DOA},
   abstract={Object navigation tasks require agents to locate specific objects in unknown environments based on visual information. Previously, graph convolutions were used to implicitly explore the relationships between objects. However, due to differences in visibility among objects, it is easy to generate biases in object attention. Thus, in this paper, we propose a directed object attention (DOA) graph to guide the agent in explicitly learning the attention relationships between objects, thereby reducing the object attention bias. In particular, we use the DOA graph to perform unbiased adaptive object attention (UAOA) on the object features and unbiased adaptive image attention (UAIA) on the raw images, respectively. To distinguish features in different branches, a concise adaptive branch energy distribution (ABED) method is proposed. We assess our methods on the AI2-Thor dataset. Compared with the state-of-the-art (SOTA) method, our method reports 7.4%, 8.1% and 17.6% increase in success rate (SR), success weighted by path length (SPL) and success weighted by action efficiency (SAE), respectively},
   gs_userid={AW2gZ8cAAAAJ},
@@ -179,13 +184,16 @@
   author={Dang, ronghao and Chen, lu and Wang, liuyi and He zongtao and Liu, Chengju and Chen, Qijun},
   booktitle={International Conference on Machine Learning (ICML)},
   year={2023},
+  month={23--29 Jul},
+  html={https://proceedings.mlr.press/v202/dang23a.html},
   code={https://github.com/izilu/MT},
   abstract={We propose a meta-ability decoupling (MAD) paradigm, which brings together various object navigation methods in an architecture system, allowing them to mutually enhance each other and evolve together. Based on the MAD paradigm, we design a multiple thinking (MT) model that leverages distinct thinking to abstract various meta-abilities. Our method decouples meta-abilities from three aspects: input, encoding, and reward while employing the multiple thinking collaboration (MTC) module to promote mutual cooperation between thinking. MAD introduces a novel qualitative and quantitative interpretability system for object navigation. Through extensive experiments on AI2-Thor and RoboTHOR, we demonstrate that our method outperforms state-of-the-art (SOTA) methods on both typical and zero-shot object navigation tasks.},
   gs_userid={AW2gZ8cAAAAJ},
   gs_paperid={Tyk-4Ss8FVUC},
   bibtex_show={true},
   abbr={MAT},
-  preview={dang2023mat.jpg}
+  preview={dang2023mat.jpg},
+  selected={true}
 }
 
 @inproceedings{dang2023search,
@@ -193,6 +201,7 @@
   author={Dang, Ronghao and Wang, Liuyi and He, Zongtao and Su, Shuai and Liu, Chengju and Chen, Qijun},
   booktitle={International Conference on Computer Vision (ICCV)},
   year={2023},
+  doi={10.1109/iccv51070.2023.00758},
   code={https://github.com/Rh-Dang/DAT},
   abstract={"Search for" or "Navigate to"? When we find a specific object in an unknown environment, the two choices always arise in our subconscious mind. Before we see the target, we search for the target based on prior experience. Once we have seen the target, we can navigate to it by remembering the target location. However, recent object navigation methods consider using object association mostly to enhance the "search for" phase while neglecting the importance of the "navigate to" phase. Therefore, this paper proposes a dual adaptive thinking (DAT) method that flexibly adjusts thinking strategies in different navigation stages. Dual thinking includes both search thinking according to the object association ability and navigation thinking according to the target location ability. To make navigation thinking more effective, we design a target-oriented memory graph (TOMG) (which stores historical target information) and a target-aware multi-scale aggregator (TAMSA) (which encodes the relative position of the target). We assess our methods based on the AI2-Thor and RoboTHOR datasets. Compared with state-of-the-art (SOTA) methods, our approach significantly raises the overall success rate (SR) and success weighted by path length (SPL) while enhancing the agent’s performance in the "navigate to" phase.},
   gs_userid={AW2gZ8cAAAAJ},
