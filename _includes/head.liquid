@@ -187,3 +187,21 @@
 {% if page.tikzjax %}
   <link defer rel="stylesheet" type="text/css" href="https://tikzjax.com/v1/fonts.css">
 {% endif %}
+
+{% if page.images %}
+  {% if page.images.lightbox2 %}
+    <!-- Lightbox2 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css"
+      integrity="sha384-..."
+      crossorigin="anonymous"
+    >
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"
+      integrity="sha384-..."
+      crossorigin="anonymous"
+      defer
+    ></script>
+  {% endif %}
+{% endif %}
