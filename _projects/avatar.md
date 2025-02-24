@@ -34,9 +34,7 @@ category: work
 </h2>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <video controls>
-            <source src="assets/video/avatar.mp4" type="video/mp4">
-        </video>
+        {% include video.liquid loading="eager" path="assets/video/avatar.mp4" title="Avatar Video" class="video-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -45,7 +43,7 @@ category: work
 </h2>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img src="assets/img/avatar1.jpeg" alt="机器人图片" class="img-fluid rounded z-depth-1">
+        {% include figure.liquid loading="eager" path="assets/img/avatar1.jpg" title="Product Appearance and Function" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
