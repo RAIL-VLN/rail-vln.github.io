@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Qi Xiaoyan
-description: (Now) Senior Staff Research Scientist, Google
+title: Avatar
+description: Avatar Robot
 img: assets/img/avatar.jpg
 importance: 12
 category: work
