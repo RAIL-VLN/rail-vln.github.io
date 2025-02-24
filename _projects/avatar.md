@@ -3,9 +3,8 @@ layout: page
 title: Avatar
 description: Avatar Robot
 img: assets/img/avatar.jpg
-importance: 12
+importance: 1
 category: work
-redirect: 
 ---
 
 <h2>
