@@ -4,7 +4,7 @@ title: Qi Xiaoyan
 description: (Now) Senior Staff Research Scientist, Google
 img: assets/img/avatar.jpg
 importance: 12
-category: current
+category: work
 redirect: 
 ---
 
