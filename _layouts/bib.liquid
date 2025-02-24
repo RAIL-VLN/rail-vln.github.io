@@ -27,9 +27,10 @@
       {% endif %}
       {% if entry.preview %}
         {% if entry.preview contains '://' %}
-          <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
+          <a class="preview z-depth-1 rounded" src="{{ entry.preview }}">
         {% else %}
           {% assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' %}
+          <a href="{{ entry_path }}" data-lightbox="publication-preview">
           {%
             include figure.liquid
             loading="eager"
@@ -39,6 +40,7 @@
             zoomable=true
             alt=entry.preview
           %}
+        </a>
         {% endif %}
       {% endif %}
     </div>
