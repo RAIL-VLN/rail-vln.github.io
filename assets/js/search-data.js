@@ -378,12 +378,7 @@ ninja.data = [{
           section: "News",},{id: "news-our-website-development-has-started-stay-tuned-sparkles",
           title: 'Our website development has started—stay tuned! :sparkles:',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
+          section: "News",},{id: "projects-project-2",
           title: 'project 2',
           description: "a project with a background image and giscus comments",
           section: "Projects",handler: () => {
@@ -428,6 +423,11 @@ ninja.data = [{
           description: "Reception Robot",
           section: "Projects",handler: () => {
               window.location.href = "/projects/alkaid/";
+            },},{id: "projects-avatar",
+          title: 'avatar',
+          description: "avatar robot",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/avatar/";
             },},{id: "projects-chen-lu",
           title: 'Chen Lu',
           description: "(Now) Senior Staff Research Scientist, Google",
