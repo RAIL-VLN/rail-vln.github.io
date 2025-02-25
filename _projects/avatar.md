@@ -8,9 +8,6 @@ category: work
 related_publications: true
 ---
 
-<h2>
-整体介绍
-</h2>
 <p>
 数字人采用语音识别和语音合成技术，结合云端大模型和知识库设计，实现流畅的人机交互。它使用LiDAR和Cartographer进行定位算法，并结合社交导航技术进行意图识别。这使得数字人能够在形如博物馆，展厅等真实应用环境中进行定制化对话、展览讲解和按需虚拟解释。
 </p>
@@ -22,26 +19,26 @@ related_publications: true
     <li><strong>语音合成</strong>：利用自然语言处理技术，生成自然流畅的语音回应。</li>
     <li><strong>云端大模型</strong>：依托强大的云计算平台，数字人能够访问和处理海量数据，提供智能化的交互体验。</li>
     <li><strong>知识库设计</strong>：通过预先设计的知识库，数字人能够提供专业的知识和信息。</li>
-    <li><strong>LiDAR</strong>：使用激光雷达技术进行环境扫描和地图构建，确保精确的定位和导航。</li>
-    <li><strong>Cartographer</strong>：采用Cartographer算法进行实时定位与地图构建（SLAM），提高导航精度。</li>
+    <li><strong>lidar</strong>：使用激光雷达技术进行环境扫描和地图构建，确保精确的定位和导航。</li>
+    <li><strong>cartographer</strong>：采用Cartographer算法进行实时定位与地图构建（SLAM），提高导航精度。</li>
     <li><strong>社交导航技术</strong>：通过意图识别和路径规划，数字人能够在人群中安全、有效地移动。</li>
 </ul>
 <p>
 这些技术的结合，使得数字人能够在各种场景中提供智能化、个性化的服务。
 </p>
 
-<h2>
-2 视频展示
-</h2>
+<p>
+视频演示
+</p>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid loading="eager" path="assets/video/avatar.mp4" title="Avatar Video" class="video-fluid rounded z-depth-1" %}
+        {% include video.liquid path="assets/video/avatar.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
 </div>
 
-<h2>
-3 细节展示
-</h2>
+<p>
+细节展示
+</p>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/avatar1.jpeg" title="Product Appearance and Function" class="img-fluid rounded z-depth-1" %}
