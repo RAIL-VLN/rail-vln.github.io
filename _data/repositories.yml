@@ -1,12 +1,10 @@
 github_users:
   - RavenKiller
   - CrystalSixone
+  - izilu
   - Candyaner
   - stone-ziyan
 
 repo_description_lines_max: 2
 
-github_repos:
-  - RavenKiller/MEE
-  - RavenKiller/IA-HWP
-  - RavenKiller/TAC
+github_repos: []
