@@ -334,17 +334,6 @@ ninja.data = [{
           window.location.href = "/sample-posts/2015/10/20/math.html";
         
       },
-    },{id: "post-a-post-with-code",
-      
-        title: "a post with code",
-      
-      description: "an example of a blog post with some code",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/sample-posts/2015/07/15/code.html";
-        
-      },
     },{id: "post-a-post-with-images",
       
         title: "a post with images",
@@ -458,6 +447,11 @@ ninja.data = [{
           description: "(Now) Senior Staff Research Scientist, Google",
           section: "Projects",handler: () => {
               window.location.href = "/projects/lu_liwen/";
+            },},{id: "projects-mee-project",
+          title: 'MEE Project',
+          description: "MEE Project",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/mee_project/";
             },},{id: "projects-qi-xiaoyan",
           title: 'Qi Xiaoyan',
           description: "(Now) Senior Staff Research Scientist, Google",
